@@ -28,26 +28,37 @@ public partial class quinielaContext : DbContext
     {
         modelBuilder.Entity<DatosQuiniela>(entity =>
         {
-            entity.HasKey(e => e.Idregistro).HasName("PK__datos_qu__917BB529C7C005D2");
+            entity.HasKey(e => e.Idregistro).HasName("PK__datos_qu__917BB529C3D63F64");
 
             entity.ToTable("datos_quiniela");
 
             entity.Property(e => e.Idregistro).HasColumnName("idregistro");
             entity.Property(e => e.FechaDiaPublicacion)
-                .HasMaxLength(20)
+                .HasMaxLength(40)
                 .HasColumnName("fecha_dia_publicacion");
-            entity.Property(e => e.Matutina).HasColumnName("matutina");
-            entity.Property(e => e.Nocturna).HasColumnName("nocturna");
+            entity.Property(e => e.Matutina)
+                .HasMaxLength(8)
+                .HasColumnName("matutina");
+            entity.Property(e => e.Nocturna)
+                .HasMaxLength(8)
+                .HasColumnName("nocturna");
             entity.Property(e => e.Nombre)
-                .HasMaxLength(20)
+                .HasMaxLength(40)
                 .HasColumnName("nombre");
-            entity.Property(e => e.Previa).HasColumnName("previa");
-            entity.Property(e => e.Primera).HasColumnName("primera");
-            entity.Property(e => e.Tarde).HasColumnName("tarde");
-            entity.Property(e => e.Vespertina).HasColumnName("vespertina");
+            entity.Property(e => e.Previa)
+                .HasMaxLength(8)
+                .HasColumnName("previa");
+            entity.Property(e => e.Primera)
+                .HasMaxLength(8)
+                .HasColumnName("primera");
+            entity.Property(e => e.Tarde)
+                .HasMaxLength(8)
+                .HasColumnName("tarde");
+            entity.Property(e => e.Vespertina)
+                .HasMaxLength(8)
+                .HasColumnName("vespertina");
         });
 
-        OnModelCreatingGeneratedProcedures(modelBuilder);
         OnModelCreatingPartial(modelBuilder);
     }
 

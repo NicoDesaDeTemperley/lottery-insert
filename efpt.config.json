@@ -18,10 +18,6 @@
       {
          "Name": "[dbo].[datos_quiniela]",
          "ObjectType": 0
-      },
-      {
-         "Name": "[dbo].[insert_datos_quiniela]",
-         "ObjectType": 1
       }
    ],
    "UiHint": "(localdb)\\MSSQLLocalDB.quiniela",

@@ -9,12 +9,12 @@ namespace loterry_console.Dto
     public class Quiniela
     {
         public string nombre_quiniela { get; set; }
-        public int previa { get; set; }
-        public int primera { get; set; }
-        public int matutina { get; set; }
-        public int vespertina { get; set; }
-        public int tarde { get; set; }
-        public int nocturna { get; set; }
+        public string previa { get; set; }
+        public string primera { get; set; }
+        public string matutina { get; set; }
+        public string vespertina { get; set; }
+        public string tarde { get; set; }
+        public string nocturna { get; set; }
         public string fecha_dia_publicacion { get; set; }
     }
 }

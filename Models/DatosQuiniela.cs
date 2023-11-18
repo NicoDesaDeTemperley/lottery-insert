@@ -11,17 +11,17 @@ public partial class DatosQuiniela
 
     public string Nombre { get; set; }
 
-    public int? Previa { get; set; }
+    public string Previa { get; set; }
 
-    public int? Primera { get; set; }
+    public string Primera { get; set; }
 
-    public int? Matutina { get; set; }
+    public string Matutina { get; set; }
 
-    public int? Vespertina { get; set; }
+    public string Vespertina { get; set; }
 
-    public int? Tarde { get; set; }
+    public string Tarde { get; set; }
 
-    public int? Nocturna { get; set; }
+    public string Nocturna { get; set; }
 
     public string FechaDiaPublicacion { get; set; }
 }
