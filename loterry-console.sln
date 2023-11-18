@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loterry-console", "loterry-console.csproj", "{78F7A3AB-F1CE-430D-9CAF-FD74B1E921EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78F7A3AB-F1CE-430D-9CAF-FD74B1E921EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F7A3AB-F1CE-430D-9CAF-FD74B1E921EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F7A3AB-F1CE-430D-9CAF-FD74B1E921EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F7A3AB-F1CE-430D-9CAF-FD74B1E921EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC27365E-F1C9-4E0B-9095-974F2DD3B8EF}
+	EndGlobalSection
+EndGlobal
