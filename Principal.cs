@@ -1,9 +1,7 @@
 ﻿using AutoMapper;
 using loterry_console.Dto;
-using loterry_console.Models;
-using Microsoft.EntityFrameworkCore;
-using SpreadsheetLight;
-using System.Threading.Tasks;
+using loterry_console.Models; 
+using SpreadsheetLight; 
 
 namespace loterry_console
 {
